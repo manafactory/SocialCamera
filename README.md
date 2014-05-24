@@ -13,7 +13,11 @@ Per fare un esempio, con #SocialCamera è possibile comprendere se all’attivit
 
 <p>Come funziona #SocialCamera nel dettaglio?</p>
 <ul>
-<li>Per ogni parlamentare della Legislatura viene creata una chiave di ricerca su Twitter e vengono memorizzati tutti i tweet legati ai parlamentari.</li>
-<li>I dati rielaborati permettono una lettura in chiave semantica delle discussioni che avvengono su Twitter, ad esempio per gli hashtag utilizzati e aventi come oggetto i deputati.</li>
-<li>La scheda di ogni deputato restituisce quindi le informazioni presenti sugli opendata della camera (foto, atti parlamentari, presenze), le informazioni presenti su Wikipedia (Biografia), e le informazioni ottenute da Twitter (hashtag utilizzati e tweet che lo riguardano)</li>
+<li>Il progetto utilizza Wordpress come framework di base per lo storage dei contenuti</li>
+<li>I file di progetto rilasciati sono 3 plugin e un tema utilizzabili con una versione di Wordpress successiva alla 3.6</li>
+<li>Per ogni parlamentare della Legislatura viene creata una chiave di ricerca su Twitter e tramite un processo in cron vengono memorizzati tutti i tweet legati ai parlamentari della legislatura in corso.</li>
+<li>I dati salvati sono poi rielaborati per permettere una lettura in chiave semantica delle discussioni che avvengono su Twitter, ad esempio per gli hashtag utilizzati e aventi come oggetto i deputati.</li>
+<li>La scheda di ogni deputato restituisce quindi le informazioni presenti sugli opendata della camera (foto, atti parlamentari, presenze), fino ad approfondire i progetti di legge votati, le informazioni presenti su Wikipedia (Biografia), e le informazioni ottenute da Twitter (hashtag utilizzati e tweet che lo riguardano)</li>
 </ul>
+
+<h1>#SocialCamera: Open Data più fruibili, Social Network più credibili</h1>
